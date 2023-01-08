@@ -29,7 +29,7 @@ Then, you can choose one of the font styles: standard, shadow, or thinkertoy. Th
 
 After that, you can choose a color of your text.
 
-Then, please click "Submit" and enjoy the results 😉
+Then, please click "Submit", scroll down, and enjoy the results 😉
 
 <br>
 
@@ -41,11 +41,11 @@ Then, please click "Submit" and enjoy the results 😉
 
 This website is responsive. If you try to change the size of your browser window, or open this page on your smartphone, it will still look good.
 
-It is also interactive. The main white form will get a light shadow if you put your mouse on it in the desktop version. The "Submit" and "Go back" buttons become bigger and get a shadow if you put your mouse on them. Also, the names of fonts change their color a little when mouse is over them.
+It is also interactive. The main white form will get a light shadow if you put your mouse on it in the desktop version. The "Submit" button becomes bigger and gets a shadow if you put your mouse on it. Also, the names of fonts change their color a little when mouse is over them.
 
 One more important thing is that you see a website response if you left the text field empty, or use unsupported symbols (like Estonian letters Ä, Õ, or Ü, for example).
 
-The website is consistent. Both pages are made in one style.
+The website is consistent. Similar elements are made in one style.
 
 The website is also user-friendly and easy to use.
 

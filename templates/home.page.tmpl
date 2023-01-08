@@ -4,7 +4,7 @@
             <label for="text" class="radiolabel">Type your text here:</label><br><br>
         <textarea id="text_string" name="text_string" rows="5" cols="30" placeholder="type something" autofocus required>{{.Input}}</textarea>
         {{if .Err}}
-        <label class="error">{{.Err}}</label>
+        <label class="error" id="error">{{.Err}}</label>
         {{end}}
         <br>
         <br>
@@ -17,13 +17,12 @@
         <label for="thinkertoy" class="radioname">Thinkertoy</label><br><br><br>
         <label for="color" class="radiolabel">Choose a color:</label><br><br>
         <input type="color" class="radiobutt" id="color" name="color" value="#183554"><br><br>
-        <input id="submitbutton" type="submit" value="Submit"><br><br>
+        <input id="submitbutton" type="submit" value="Submit">
           </form>
  </div>
  <div id="results">
-  <br>
-  <p class="radiolabel">Your result:</p>
   {{if .Output}}
+  <p id="yourresult" class="radiolabel">Your result:</p>
  <textarea wrap="off" class="ascii-output"  style="color: {{.Color}}" readonly>{{.Output}}</textarea>
  {{end}}
 </div>
