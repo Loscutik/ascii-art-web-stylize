@@ -15,15 +15,18 @@
         <label for="shadow" class="radioname">Shadow</label>
         <input type="radio" class="radiobutt" id="thinkertoy" name="text_style" value="thinkertoy" required>
         <label for="thinkertoy" class="radioname">Thinkertoy</label><br><br><br>
-        <label for="color" class="radiolabel">Choose a color:</label><br><br>
-        <input type="color" class="radiobutt" id="color" name="color" value="#183554"><br><br>
+        <label  class="radiolabel">Choose a color:</label><br><br>
+        <input type="color" class="radiobutt" id="color" name="color" value="#183554">
+        <label for="color" class="radioname">letters</label>
+        <input type="color" class="radiobutt" id="bk-color" name="bk-color" value="#efefee">
+        <label for="bk-color" class="radioname">background</label><br><br>
         <input id="submitbutton" type="submit" value="Submit">
           </form>
  </div>
  <div id="results">
   {{if .Output}}
   <p id="yourresult" class="radiolabel">Your result:</p>
- <textarea wrap="off" class="ascii-output"  style="color: {{.Color}}" readonly>{{.Output}}</textarea>
+ <textarea wrap="off" class="ascii-output"  style="color: {{.Color}}; background-color:{{.BkColor}}" readonly>{{.Output}}</textarea>
  {{end}}
 </div>
  {{end}}

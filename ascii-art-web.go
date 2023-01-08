@@ -37,6 +37,7 @@ type outputData struct {
 	Input  string
 	Output string
 	Color  string
+	BkColor string
 	Err    string
 }
 
@@ -104,6 +105,7 @@ func postHandler(w http.ResponseWriter, r *http.Request, out *outputData) {
 	// data for output
 	out.Output = aText // ascii presentation of the string
 	out.Color = r.FormValue("color")
+	out.BkColor = r.FormValue("bk-color")
 }
 
 /*
