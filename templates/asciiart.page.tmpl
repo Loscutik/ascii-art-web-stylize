@@ -1,0 +1,19 @@
+{{define "content"}}
+
+
+
+<div id="results">
+    <p class="radiolabel">Your text:</p>
+    <p id="textstring" readonly>
+    {{range .Input}} <br>
+    {{.}}
+    {{end}}
+    </p>
+    <br>
+    <p class="radiolabel">Your result:</p>
+    
+   <textarea wrap="off" class="ascii-output"  style="color: {{.Color}}" readonly>{{.Output}}</textarea>
+</div>
+   <a id="gohomebutton" href="/" >Go back</a>
+   <br>
+{{end}}
